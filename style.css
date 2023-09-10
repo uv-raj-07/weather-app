@@ -6,8 +6,8 @@ box-sizing: border-box;
 font-family:'Poppins',sans-serif;
 }
 .container{
-    background: #171717;
-    color: #fff;
+    background:lightskyblue;
+    color: black;
     padding: 2rem;
     width: 40%;
     margin: 4rem auto;
@@ -22,14 +22,14 @@ font-family:'Poppins',sans-serif;
 }
 input{
     border: none;
-    background: #1e1e1e;
+    background: lightblue;
     outline: none;
-    color: #fff;
+    color: black;
     padding: 0.5rem 2.5rem;
     border-radius: 5px;
 }
 input::placeholder{
-    color: #fff;
+    color: black;
 
 }
 .weather__search{
@@ -40,16 +40,7 @@ input::placeholder{
     left: 10px;
     top: 10px;
     font-size: 15px;
-    color:#fff;
-}
-.weather__unit{
-    font-size: 1.5rem;
-}
-.weather__unit span {
-     cursor: pointer;
-}
-.weather__unit span:first-child {
-    margin-right: 0.5rem;
+    color:black;
 }
 .weather__body{
     text-align: center;
@@ -60,7 +51,7 @@ input::placeholder{
     font-size: 14px;
 }
 .weather__forecast{
-    background: #1e1e1e;
+    background: lightblue;
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 30px;
@@ -90,7 +81,7 @@ input::placeholder{
 .weather__card{
     display: flex;
     align-items: center;
-    background: #1e1e1e;
+    background:lightblue;
     padding: 1rem;
     border-radius: 10px;
 
