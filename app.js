@@ -1,5 +1,5 @@
 function getWeather(){
-    console.log("testing")
+    console.log("The is test.")
 }
 
 document.body.addEventListener('load',getWeather())
